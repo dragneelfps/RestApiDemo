@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rest Api Demo</string>
+    <string name="fname_label">First Name</string>
+    <string name="lname_label">Last Name</string>
+    <string name="phone_label">Phone Number</string>
+    <string name="address_label">Address</string>
+    <string name="restaurant_label">Restaurant Name</string>
+    <string name="request_by_label">Request By</string>
+    <string name="submit_btn">Submit</string>
+</resources>

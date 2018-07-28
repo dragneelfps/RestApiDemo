@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.ResultActivity"
+    android:background="@drawable/main_background">
+
+    <TextView
+        android:id="@+id/raw_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/defTextColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"
+        android:layout_margin="16dp" />
+
+    <GridLayout
+        android:id="@+id/response_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/raw_response"
+        android:layout_margin="32dp"
+        android:padding="8dp"
+        android:scrollbars="horizontal">
+
+        <TextView
+            android:text="Success"
+            android:padding="8dp"
+            android:textColor="@color/defTextColor" />
+
+        <TextView
+            android:id="@+id/success"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="Error"
+            android:padding="8dp"
+            android:textColor="@color/defTextColor" />
+
+        <TextView
+            android:id="@+id/error"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="Status"
+            android:padding="8dp"
+            android:textColor="@color/defTextColor" />
+
+        <TextView
+            android:id="@+id/status"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="Message"
+            android:padding="8dp"
+            android:textColor="@color/defTextColor" />
+
+        <TextView
+            android:id="@+id/message"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="Phone"
+            android:padding="8dp"
+            android:textColor="@color/defTextColor" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:padding="8dp" />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

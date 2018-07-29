@@ -11,7 +11,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="vertical">
+        android:scrollbars="vertical"
+        android:paddingBottom="50dp">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -164,7 +165,7 @@
     <Button
         android:id="@+id/submit_btn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="@string/submit_btn"
         android:textSize="24sp"
         android:background="@color/colorPrimary"
